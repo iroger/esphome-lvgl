@@ -274,48 +274,48 @@ packages:
 
   # lighting
   second_floor_lights_widget_sensors: !include { file: widgets/buttons/icon_text_buttons/light_group_buttons/sensors.yaml, vars: {
-    uid: second_floor_lights,
-    entity_id: light.second_floor_lights
+    uid: kantoor_lights,
+    entity_id: light.Kantoor
   }}
 
   all_bedroom_lights_widget_sensors: !include { file: widgets/buttons/icon_text_buttons/light_buttons/sensors.yaml, vars: {
-    uid: all_bedroom_lights,
-    entity_id: light.all_bedroom_lights
+    uid: plafondspots,
+    entity_id: light.plafondspots
   }}
 
   railyns_light_widget_sensors: !include { file: widgets/buttons/icon_text_buttons/light_buttons/sensors.yaml, vars: {
-    uid: railyns_light,
-    entity_id: light.railyns_light
+    uid: erker,
+    entity_id: light.erker
   }}
 
   ryans_office_light_widget_sensors: !include { file: widgets/buttons/icon_text_buttons/light_buttons/sensors.yaml, vars: {
-    uid: all_ryan_s_office_lights,
-    entity_id: light.all_ryan_s_office_lights
+    uid: Erker_links,
+    entity_id: light.erker_links
   }}
 
   upstairs_hallway_light_widget_sensors: !include { file: widgets/buttons/icon_text_buttons/light_buttons/sensors.yaml, vars: {
-    uid: upstairs_hallway_light,
-    entity_id: light.upstairs_hallway_light
+    uid: erker_rechts,
+    entity_id: light.erker_rechts
   }}
 
   main_floor_lights_widget_sensors: !include { file: widgets/buttons/icon_text_buttons/light_group_buttons/sensors.yaml, vars: {
-    uid: main_floor_lights,
-    entity_id: light.main_floor_lights
+    uid:  Hue_spot_1,
+    entity_id: light.hue_spot_1
   }}
 
   all_living_room_lights_widget_sensors: !include { file: widgets/buttons/icon_text_buttons/light_buttons/sensors.yaml, vars: {
-    uid: all_living_room_lights,
-    entity_id: light.all_living_room_lights
+    uid: Hue_spot_2,
+    entity_id: light.hue_spot_2
   }}
 
   kitchen_light_widget_sensors: !include { file: widgets/buttons/icon_text_buttons/light_buttons/sensors.yaml, vars: {
-    uid: kitchen_light,
-    entity_id: light.kitchen_light
+    uid: Livingcolors,
+    entity_id: light.livingcolors
   }}
 
   rachels_office_light_widget_sensors: !include { file: widgets/buttons/icon_text_buttons/light_buttons/sensors.yaml, vars: {
-    uid: rachels_office_light,
-    entity_id: light.rachels_office_light
+    uid: Porsche,
+    entity_id: light.porsche_gt4rs
   }}
 
   # lighting 2
