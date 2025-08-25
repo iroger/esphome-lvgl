@@ -85,85 +85,85 @@ lvgl:
             layout:
               <<: *button_layout
             widgets:
-              - button: # second floor lights
+              - button: # kantoor
                   <<: !include
                     file: widgets/buttons/icon_text_buttons/light_group_buttons/widget.yaml
                     vars:
-                      uid: second_floor_lights
-                      entity_id: light.second_floor_lights
-                      text: Second Floor
+                      uid: kantoor_lights
+                      entity_id: light.Kantoor
+                      text: Kantoor
                       <<: *wide_button_widget_vars
 
-              - button: # bedroom lights
+              - button: # Woonkamer
                   <<: !include
                     file: widgets/buttons/icon_text_buttons/light_buttons/widget.yaml
                     vars:
-                      uid: all_bedroom_lights
-                      entity_id: light.all_bedroom_lights
-                      text: Bedroom
+                      uid: plafondspots
+                      entity_id: light.plafondspots
+                      text: Plafondspots
                       <<: *button_widget_vars
 
-              - button: # railyn light
+              - button: # Woonkamer
                   <<: !include
                     file: widgets/buttons/icon_text_buttons/light_buttons/widget.yaml
                     vars:
-                      uid: railyns_light
-                      entity_id: light.railyns_light
-                      text: Railyn
+                      uid: erker
+                      entity_id: light.erker
+                      text: Erker
                       <<: *button_widget_vars
 
-              - button: # ryan's office light
+              - button: # Woonkamer
                   <<: !include
                     file: widgets/buttons/icon_text_buttons/light_buttons/widget.yaml
                     vars:
-                      uid: all_ryan_s_office_lights
-                      entity_id: light.all_ryan_s_office_lights
-                      text: Office
+                      uid: Erker_links
+                      entity_id: light.erker_links
+                      text: Erker-links
                       <<: *button_widget_vars
 
-              - button: # upstairs hallway light
+              - button: # Woonkamer
                   <<: !include
                     file: widgets/buttons/icon_text_buttons/light_buttons/widget.yaml
                     vars:
-                      uid: upstairs_hallway_light
-                      entity_id: light.upstairs_hallway_light
-                      text: Hallway
+                      uid: erker_rechts
+                      entity_id: light.erker_rechts
+                      text: Erker-rechts
                       <<: *button_widget_vars
 
-              - button: # main floor lights
+              - button: # Woonkamer
                   <<: !include
                     file: widgets/buttons/icon_text_buttons/light_group_buttons/widget.yaml
                     vars:
-                      uid: main_floor_lights
-                      entity_id: light.main_floor_lights
-                      text: Main Floor
+                      uid: Hue_spot_1
+                      entity_id: light.hue_spot_1
+                      text: Hue-spot-1
                       <<: *wide_button_widget_vars
 
-              - button: # living room light
+              - button: # Woonkamer
                   <<: !include
                     file: widgets/buttons/icon_text_buttons/light_buttons/widget.yaml
                     vars:
-                      uid: all_living_room_lights
-                      entity_id: light.all_living_room_lights
-                      text: Living Room
+                      uid: Hue_spot_2
+                      entity_id: light.hue_spot_2
+                      text: Hue-spot-2
                       <<: *button_widget_vars
 
-              - button: # kitchen light
+              - button: # Woonkamer
                   <<: !include
                     file: widgets/buttons/icon_text_buttons/light_buttons/widget.yaml
                     vars:
-                      uid: kitchen_light
-                      entity_id: light.kitchen_light
-                      text: Kitchen
+                      uid: Livingcolors
+                      entity_id: light.livingcolors
+                      text: Livingcolors
                       <<: *button_widget_vars
 
-              - button: # rachel's office light
+              - button: # Woonkamer
                   <<: !include
                     file: widgets/buttons/icon_text_buttons/light_buttons/widget.yaml
                     vars:
-                      uid: rachels_office_light
-                      entity_id: light.rachels_office_light
-                      text: Office
+                      uid: Porsche
+                      entity_id: light.porsche_gt4rs
+                      text: Porsche-GT4RS
                       <<: *button_widget_vars
 
     - id: lighting_2
